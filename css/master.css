@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Work sans";
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 25px 0 27px 0;
+    
+}
+.nav .logo {
+    width: 90px;
+    height: 28px;
+
+}
+ul {
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li {
+    display: inline-block;
+    
+
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+
+}
+ul li a:hover {
+    font-weight: 600;
+    border-bottom: 3px solid black;
+}
+
+.icons i {
+    margin-left: 40px;
+    font-weight: 900;
+    /* font-size: 24px; */
+}
+
+
+
+/* Start fristSection  */
+.firstSection {
+    width: 100%;
+    height: 500px;
+    background-color: #0085FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstSection .text {
+    width: 670px;
+    
+    text-align: center;
+}
+.firstSection .text h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75.07px;
+    margin-bottom: 24px;
+}
+.firstSection .text p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+}
+.firstSection .text .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.firstSection .text .buttons span {
+    background-color: black;
+    color: white;
+    width: 234px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: 700;
+    
+    margin-top: 50px;
+}
+.firstSection .text .buttons .trans {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+
+
+}
+/* End fristSection  */
+
+
+/* Start Social media Section */
+.social {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.social .container {
+    width: 866px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social .container p {
+    font-size: 18px;
+    font-weight: 700;
+}
+.social .container a i {
+    font-size: 24px;
+    color: white;
+    
+}
+.social .container img {
+    width: 24px;
+    height: 24px;
+    
+}
+.social .container .fa-twitter {
+    color: #03a9f4;
+}
+.social .container .fa-linkedin-in {
+    color: #0077b5;
+}
+
+/* End Social media Section */
+
+/* Start Content Section */
+.content-container {
+    width: 740px;
+    margin: 60px auto;
+}
+.content-container h2 {
+    margin-bottom: 40px;
+}
+.content-container .fsection {
+    width: calc(100%/ 2 - 10);
+    display: flex;
+    justify-content: space-between
+
+}
+
+.content-container .fsection .card .h3 {
+    margin-top: 24px;
+    font-weight: 700;
+}
+.content-container .fsection .card p {
+    margin-top: 8px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* End Content Section */
+
+/* Start Side Projects Section */
+.ssection {
+    margin-top: 80px;
+}
+.ssection h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+
+}
+.ssection .cont {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.ssection .cont img {
+    width: 170px;
+    height: 132px;
+}
+
+.ssection .text  {
+    width: calc(100% - 170px - 18px);
+    
+}
+.ssection .text h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.ssection .text p {
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 28px;
+    margin-top: 8px;
+    
+}
+.ssection .text .Date {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #737373
+    
+}
+/* End Side Projects Section */
+
+/* Start Recent Writing Section */
+
+.ssection #other {
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.ssection #other .text  {
+    width: 100%;
+}
+.ssection #other #one {
+    margin-bottom: 68px;
+
+}
+.ssection #other #two {
+    margin-bottom: 32px;
+}
+.ssection #other span {
+    width: 234px;
+    height: 48px; 
+    padding: 10px 24px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* End Recent Writing Section */
+/* Start footer  */
+footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #737373;
+    border-top: 1px solid #e5e5e5;
+
+}
+footer .icons {
+    font-size: 24px;
+
+}
+footer .icons i {
+    margin-left: 40px;
+
+}
+/* End footer  */
+

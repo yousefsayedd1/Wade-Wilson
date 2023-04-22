@@ -46,6 +46,7 @@ ul li a:hover {
 .icons i {
     margin-left: 40px;
     font-weight: 900;
+    color: black;
     /* font-size: 24px; */
 }
 
@@ -75,12 +76,14 @@ ul li a:hover {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
+    margin-bottom: 50px;
 
 }
 .firstSection .text .buttons {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    cursor: pointer;
 }
 .firstSection .text .buttons span {
     background-color: black;
@@ -90,11 +93,10 @@ ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-size: 18px;
     font-weight: 700;
     
-    margin-top: 50px;
+    
 }
 .firstSection .text .buttons .trans {
     background-color: transparent;
@@ -246,6 +248,7 @@ ul li a:hover {
     align-items: center;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
 }
 /* End Recent Writing Section */
 /* Start footer  */

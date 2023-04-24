@@ -62,7 +62,7 @@ ul li a:hover {
     align-items: center;
 }
 .firstSection .text {
-    width: 50%;
+    width: 670px;
     
     text-align: center;
 }
@@ -105,30 +105,6 @@ ul li a:hover {
 
 
 }
-
-@media (max-width : 900px)
-{
-    .firstSection .text {
-        width: 100%;
-    }
-    .firstSection .text h1 {
-        font-size: 48px;
-    }
-    .firstSection .text p {
-        font-size: 18px;
-        margin-bottom: 24px;
-        
-    }
-    .firstSection .text .buttons {
-        
-        flex-direction: column;
-        
-    }
-    .firstSection .text .buttons span {
-        width: 326px;
-        margin-bottom: 24px;
-    }
-}
 /* End fristSection  */
 
 
@@ -169,8 +145,6 @@ ul li a:hover {
 .social .container .fa-linkedin-in {
     color: #0077b5;
 }
-
-
 
 /* End Social media Section */
 
